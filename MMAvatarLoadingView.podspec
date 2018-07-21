@@ -14,14 +14,14 @@ Pod::Spec.new do |s|
                         Image loading library that fetches specified image from remote URL, cache it if necessary and view the progress of downloading with handy animaiton. 
                        DESC
 
-  s.homepage         = 'https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView'
+  s.homepage         = 'https://github.com/Meseery2/MMAvatarLoadingView.git'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mohamed ELMeseery' }
-  s.source           = { :git => 'https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView.git', :tag => s.version.to_s }
+  s.author           = { 'm7med4ever@gmail.com' => 'eng.m.elmeseery@gmail.com' }
+  s.source           = { :git => 'https://github.com/Meseery2/MMAvatarLoadingView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
+    s.swift_version = '4.0'
   s.source_files = 'MMAvatarLoadingView/Classes/**/*'
   
   # s.resource_bundles = {

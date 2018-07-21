@@ -21,13 +21,13 @@ class MMDownloadService : NSObject {
     private var downloadTask : URLSessionDownloadTask?
     
     /// Monitor Download
-    private var onProgress : ProgressHandler?
-    private var onSuccess : OnSuccessHandler?
-    private var onFailure : OnFailureHandler?
+    public var onProgress : ProgressHandler?
+    public var onSuccess : OnSuccessHandler?
+    public var onFailure : OnFailureHandler?
     
     /// Cache
-    private var cache : MMDataCache?
-    private var invalidURLS = Set<URL>()
+    public var cache : MMDataCache?
+    public var invalidURLS = Set<URL>()
     
     override init() {
         super.init()
