@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+iOS 8, Swift 4.0
 ## Installation
 
 MMAvatarLoadingView is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +22,7 @@ pod 'MMAvatarLoadingView'
 
 ## Author
 
-m7med4ever@gmail.com, eng.m.elmeseery@gmail.com
+Mohamed ELMeseery
 
 ## License
 
