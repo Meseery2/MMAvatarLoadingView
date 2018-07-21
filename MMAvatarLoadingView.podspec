@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'm7med4ever@gmail.com' => 'eng.m.elmeseery@gmail.com' }
+  s.author           = { 'Mohamed ELMeseery' }
   s.source           = { :git => 'https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
