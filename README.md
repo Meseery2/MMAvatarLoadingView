@@ -1,6 +1,6 @@
 # MMAvatarLoadingView
 
-[![CI Status](https://img.shields.io/travis/m7med4ever@gmail.com/MMAvatarLoadingView.svg?style=flat)](https://travis-ci.org/Meseery/MMAvatarLoadingView)
+[![CI Status](https://img.shields.io/travis/m7med4ever@gmail.com/MMAvatarLoadingView.svg?style=flat)](https://travis-ci.org/Meseery2/MMAvatarLoadingView)
 [![Version](https://img.shields.io/cocoapods/v/MMAvatarLoadingView.svg?style=flat)](https://cocoapods.org/pods/MMAvatarLoadingView)
 [![License](https://img.shields.io/cocoapods/l/MMAvatarLoadingView.svg?style=flat)](https://cocoapods.org/pods/MMAvatarLoadingView)
 [![Platform](https://img.shields.io/cocoapods/p/MMAvatarLoadingView.svg?style=flat)](https://cocoapods.org/pods/MMAvatarLoadingView)
