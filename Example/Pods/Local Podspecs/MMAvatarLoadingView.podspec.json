@@ -1,0 +1,22 @@
+{
+  "name": "MMAvatarLoadingView",
+  "version": "0.1.0",
+  "summary": "A short description of MMAvatarLoadingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "m7med4ever@gmail.com": "eng.m.elmeseery@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/m7med4ever@gmail.com/MMAvatarLoadingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMAvatarLoadingView/Classes/**/*"
+}

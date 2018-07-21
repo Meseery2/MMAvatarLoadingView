@@ -1,0 +1,6 @@
+framework module Pods_MMAvatarLoadingView_Example {
+  umbrella header "Pods-MMAvatarLoadingView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

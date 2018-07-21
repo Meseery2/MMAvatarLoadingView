@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MMAvatarLoadingView
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var avatarView: MMAvatarLoadingView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +21,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func loadAvatar(sender: AnyObject) {
+        let imageURL = URL.init(string: "https://source.unsplash.com/random")
+        self.avatarView.loadImage(fromURL: imageURL!,
+                                  progressBarColor: UIColor.blue,
+                                  progressBarLineWidth: 5.0)
     }
 
 }
