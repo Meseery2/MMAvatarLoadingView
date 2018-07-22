@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMAvatarLoadingView: 7a77231915ee9089d99b50703ec5e60c6582a0b5
+  MMAvatarLoadingView: ac89e3e1ea0a0f9cce77652468337b7497a02128
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 

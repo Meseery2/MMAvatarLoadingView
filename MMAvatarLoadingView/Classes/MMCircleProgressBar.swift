@@ -10,10 +10,10 @@ import UIKit
 class MMCircleProgressBar : UIView {
     
     //MARK:- Public Vars
-    public var progress : Int = 0 {
+    public var progress : Float = 0.0 {
         didSet {
             DispatchQueue.main.async {
-                self.shapeLayer?.strokeEnd = CGFloat(self.progress)/100
+                self.shapeLayer?.strokeEnd = CGFloat(self.progress)
             }
         }
     }

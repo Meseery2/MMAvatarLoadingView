@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         let imageURL = URL.init(string: "https://source.unsplash.com/random")
         self.avatarView.loadImage(fromURL: imageURL!,
                                   progressBarColor: UIColor.blue,
-                                  progressBarLineWidth: 5.0)
+                                  progressBarLineWidth: 10.0)
     }
 
 }

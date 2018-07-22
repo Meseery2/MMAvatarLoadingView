@@ -36,7 +36,7 @@ public class MMAvatarLoadingView: UIImageView{
         }
         downloadManager?.downloadFile(withURL: imageURL,
                                       onProgress: {[weak self] (progress) in
-                                        self?.setProgress(progress: progress)
+                self?.setProgress(progress: progress)
             }, onSuccess: { [weak self] (imageData) in
                 self?.setImage(withImageData: imageData)
             }, onFailure: { [weak self] (error) in
@@ -64,7 +64,7 @@ public class MMAvatarLoadingView: UIImageView{
     }
     
     private func setProgress(progress:Float){
-        self.circleProgressBar?.progress = Int(progress) * 100
+        self.circleProgressBar?.progress = progress
     }
     
     private func showError(_ error:Error?){
